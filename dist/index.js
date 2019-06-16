@@ -8,9 +8,9 @@ exports.withResponsiveProps = (p, C) => {
     return react_responsiveness_1.withResponsiveness(function ResponsiveProps(props) {
         const bp = Math.min(...props.responsive.breakpoints);
         const newProps = Object.assign({}, props);
-        p.forEach(prop => {
+        p.forEach((prop) => {
             if (Array.isArray(props[prop])) {
-                let newVal = props[prop].reduce((a, c, i) => i <= bp && c || a, null);
+                let newVal = props[prop].reduce((a, c, i) => (i <= bp && c) || a, null);
                 newProps[prop] = newVal;
             }
         });

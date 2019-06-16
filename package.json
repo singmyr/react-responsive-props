@@ -1,6 +1,6 @@
 {
     "name": "react-responsive-props",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "React Responsive Props functionality",
     "main": "dist/index.js",
     "scripts": {
