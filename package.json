@@ -1,6 +1,6 @@
 {
     "name": "react-responsive-props",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "React Responsive Props functionality",
     "main": "dist/index.js",
     "scripts": {
@@ -69,6 +69,6 @@
         "dist/**.js"
     ],
     "dependencies": {
-        "react-responsiveness": "https://github.com/singmyr/react-responsiveness.git#v0.1.18"
+        "react-responsiveness": "https://github.com/singmyr/react-responsiveness.git#v0.1.19"
     }
 }

@@ -3950,9 +3950,9 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-"react-responsiveness@https://github.com/singmyr/react-responsiveness.git#v0.1.18":
-  version "0.1.18"
-  resolved "https://github.com/singmyr/react-responsiveness.git#c07ab9c05eee5588638de2cfc23dd66b3a3f9f7a"
+"react-responsiveness@https://github.com/singmyr/react-responsiveness.git#v0.1.19":
+  version "0.1.19"
+  resolved "https://github.com/singmyr/react-responsiveness.git#1c0ef0e7d296fcfcdb9ecb7b0d1e4a3b9cb1d884"
 
 react-test-renderer@^16.0.0-0:
   version "16.8.6"

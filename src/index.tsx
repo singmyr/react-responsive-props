@@ -2,7 +2,7 @@ import * as React from 'react';
 import { withResponsiveness } from 'react-responsiveness';
 export { ResponsivenessProvider } from 'react-responsiveness';
 
-export const withResponsiveProps = (p: string[], C: any): React.ReactNode => {
+export const withResponsiveProps = (p: string[], C: React.ComponentClass): React.ReactNode => {
     return withResponsiveness(function ResponsiveProps(props: any): React.ReactNode {
         const bp = Math.min(...props.responsive.breakpoints);
         const newProps = { ...props };
