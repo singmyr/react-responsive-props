@@ -10,7 +10,8 @@
         "test:watch": "jest --watchAll --verbose",
         "test:coverage": "jest --verbose --coverage",
         "build": "yarn clean && ./node_modules/typescript/bin/tsc",
-        "clean": "rm -rf ./dist"
+        "clean": "rm -rf ./dist",
+        "watch": "./node_modules/typescript/bin/tsc -w"
     },
     "author": "Mattias Singmyr <mattias@singmyr.io>",
     "license": "MIT",
